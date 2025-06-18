@@ -1,7 +1,7 @@
 Here's a quick step-by-step to provision the EKS cluster using Terraform:
 
-1. **Set Up Your Project Folder**  
-   Organize your `.tf` files—include `main.tf`, `variables.tf`, `outputs.tf`, etc.
+1. **Set Up the Project Folder**  
+   Organize `.tf` files—include `main.tf`, `variables.tf`, `outputs.tf`, etc.
 
 2. **Define the AWS Provider**  
    In `providers.tf`, configure the AWS provider and specify your region.
