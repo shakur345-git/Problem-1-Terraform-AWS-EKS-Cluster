@@ -1,0 +1,9 @@
+terraform-eks-cluster/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── versions.tf
+├── vpc.tf
+├── eks.tf
+├── providers.tf
+├── readme.md
