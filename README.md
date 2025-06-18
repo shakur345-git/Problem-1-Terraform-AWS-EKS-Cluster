@@ -9,3 +9,5 @@
 
 vpc.tf – Use terraform-aws-modules/vpc/aws module for fast setup.
 eks.tf – Use terraform-aws-modules/eks/aws:
+
+aws eks --region <region> update-kubeconfig --name <cluster_name> kubectl get nodes
