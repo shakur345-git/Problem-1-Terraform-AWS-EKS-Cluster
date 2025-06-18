@@ -20,14 +20,17 @@ Here's a quick step-by-step to provision the EKS cluster using Terraform:
 
 7. **Run the Commands**  
   
-   / terraform init /
-   / terraform plan /
-   / terraform apply /
-   ```
+   terraform init
+   
+   terraform plan
+   
+   terraform apply
+   
 
-8. **Validate with kubectl**  
+9. **Validate with kubectl**  
    After apply, configure access:
    
    Command: aws eks --region <region> update-kubeconfig --name <cluster_name>
-   kubectl get nodes
-   ```
+
+   Command: kubectl get nodes
+   
